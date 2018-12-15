@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+heart = {path = ".",extras = ["test"],editable = true}
+
+[packages]
+flake8 = {version = "*"}
+zest-releaser = {extras = ["recommened"],version = "*"}
+flake8-isort = "*"
+sphinx = "*"
+sphinx-rtd-theme = "*"
+sphinxcontrib-httpdomain = "*"
+sphinxcontrib-httpexample = "*"
+tox = "*"
+certifi = "*"
+
+[requires]
+python_version = "3.6"
