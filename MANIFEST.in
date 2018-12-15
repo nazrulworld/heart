@@ -1,3 +1,4 @@
+graft src/heart
 include AUTHORS.rst
 include CONTRIBUTING.rst
 include HISTORY.rst
