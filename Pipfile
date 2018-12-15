@@ -7,8 +7,7 @@ verify_ssl = true
 heart = {path = ".",extras = ["test"],editable = true}
 
 [packages]
-flake8 = {version = "*"}
-zest-releaser = {extras = ["recommened"],version = "*"}
+flake8 = "*"
 flake8-isort = "*"
 sphinx = "*"
 sphinx-rtd-theme = "*"
@@ -16,6 +15,7 @@ sphinxcontrib-httpdomain = "*"
 sphinxcontrib-httpexample = "*"
 tox = "*"
 certifi = "*"
+zest-releaser = {extras = ["recommended"],version = "*"}
 
 [requires]
 python_version = "3.6"

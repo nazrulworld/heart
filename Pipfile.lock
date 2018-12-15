@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "13c0c6f30b7b5bbae069f0c5be70a4ae55446ab4bd06cbd8dbf0f60682b86b53"
+            "sha256": "7ada7925f323fedb82aa6a00a8f0e198202039cef92575e386dc334eba340168"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -58,6 +58,13 @@
                 "sha256:fc323ffcaeaed0e0a02bf4d117757b98aed530d9ed4531e3e15460124c106691"
             ],
             "version": "==3.0.4"
+        },
+        "check-manifest": {
+            "hashes": [
+                "sha256:44e3cf4b0833a55460046bf7a3600eaadbcae5e9d13baf0c9d9789dd5c2c6452",
+                "sha256:728edbaccadaa86db0b8f876afac1fb90bce9452234753dfe4ef8fe786dcc2f1"
+            ],
+            "version": "==0.37"
         },
         "colorama": {
             "hashes": [
@@ -222,6 +229,13 @@
             ],
             "version": "==2.3.0"
         },
+        "pyroma": {
+            "hashes": [
+                "sha256:3ed770a0ed1616ee2ffa576852e34fb1ea5b54c37ff78dd33cff67d0e4bb584b",
+                "sha256:94a11cb077976bff9bd37ac8b487902556f216c4ee90b74a2344367f73b6ee7f"
+            ],
+            "version": "==2.4"
+        },
         "pytz": {
             "hashes": [
                 "sha256:31cb35c89bd7d333cd32c5f278fca91b523b0834369e757f4c5641ea252236ca",
@@ -369,7 +383,7 @@
         },
         "zest-releaser": {
             "extras": [
-                "recommened"
+                "recommended"
             ],
             "hashes": [
                 "sha256:64bcf954c5a7327cce7d402fc97f616369272c74fabf2b6b34b7a63a743e2d70"
